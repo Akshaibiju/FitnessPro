@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+        <RelativeLayout
+            android:id="@+id/armcontainer"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/selectbuttonbackground"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="2dp"
+            android:layout_height="100dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/sholdercontainer"
+            android:layout_width="match_parent"
+            android:layout_below="@id/armcontainer"
+            android:background="@drawable/selectbuttonbackground"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="2dp"
+            android:layout_height="100dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/chestcontainer"
+            android:layout_width="match_parent"
+            android:layout_below="@id/sholdercontainer"
+            android:background="@drawable/selectbuttonbackground"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="2dp"
+            android:layout_height="100dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/abscontainer"
+            android:layout_width="match_parent"
+            android:layout_below="@id/chestcontainer"
+            android:background="@drawable/selectbuttonbackground"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="2dp"
+            android:layout_height="100dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/legcontainer"
+            android:layout_width="match_parent"
+            android:layout_below="@id/abscontainer"
+            android:background="@drawable/selectbuttonbackground"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="2dp"
+            android:layout_height="100dp">
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
